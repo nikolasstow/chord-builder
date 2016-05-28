@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ChordBuilder</string>
+
+    <string name="flat">♭</string>
+    <string name="doubleFlat">♭♭</string>
+    <string name="sharp">♯</string>
+    <string name="doubleSharp">x</string>
+</resources>

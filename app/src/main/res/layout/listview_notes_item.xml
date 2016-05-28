@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/listview_item_height"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/doubleFlat"
+        style="@style/listButtonContainer"
+        android:layout_weight="@integer/listview_item_weight_small">
+
+        <TextView
+            style="@style/listButton"
+            android:text="@string/doubleFlat"
+            android:textSize="@dimen/listview_item_textSize_small" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/flat"
+        style="@style/listButtonContainer"
+        android:layout_weight="@integer/listview_item_weight_medium">
+
+        <TextView
+            style="@style/listButton"
+            android:text="@string/flat"
+            android:textSize="@dimen/listview_item_textSize_medium" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/natural"
+        style="@style/listButtonContainer"
+        android:layout_weight="@integer/listview_item_weight_large">
+
+        <TextView
+            style="@style/listButton"
+            android:text="A"
+            android:textSize="@dimen/listview_item_textSize_large" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sharp"
+        style="@style/listButtonContainer"
+        android:layout_weight="@integer/listview_item_weight_medium">
+
+        <TextView
+            style="@style/listButton"
+            android:text="@string/sharp"
+            android:textSize="@dimen/listview_item_textSize_medium" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/doubleSharp"
+        style="@style/listButtonContainer"
+        android:layout_weight="@integer/listview_item_weight_small">
+
+        <ImageView
+            android:layout_width="@dimen/listview_item_imageSize"
+            android:layout_height="@dimen/listview_item_imageSize"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/double_sharp" />
+    </RelativeLayout>
+</LinearLayout>

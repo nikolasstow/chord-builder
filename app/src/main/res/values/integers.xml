@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Button Widths -->
+    <integer name="listview_item_weight_small">3</integer>
+    <integer name="listview_item_weight_medium">4</integer>
+    <integer name="listview_item_weight_large">7</integer>
+</resources>
